@@ -1,0 +1,179 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+  background: #e8e6e7;
+}
+header{
+    padding: 2rem 7rem;
+    background: #1d1d1f;
+    height: 80px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 3rem;
+    
+}
+
+
+.navigation ul  {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.navigation .links-apple:focus{
+    color: #fff;
+    
+}
+
+.navigation a{
+    color: #888;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navigation .links-apple a:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.navigation .check a{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+
+.main-text img{
+    width: 18rem;
+    margin-bottom: 3vh;
+}
+.main-text h3{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.main-text p{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.main-text h6{
+    font-size: 1.5rem;
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.main-text .btn {
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: bolder;
+    background: #0071e3;
+    padding: 1rem 2.5rem;
+    margin-bottom: 2rem;
+    transition: all 0.5s ease;
+}
+
+.main-text .btn:hover{
+    opacity: .85;
+}
+
+.main-text .text{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.9rem;
+    color: #444;
+}
+
+.main-text .content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.main-text .content span{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+
+.main-text .content span:hover{
+    opacity: .80;
+}
+
+#green{
+    background: #364936;
+}
+
+#pink{
+    background: #ffc9cf;
+}
+#blue{
+    background: #225F7E;
+}
+#black{
+    background: #192028;
+}
+#white{
+    background: #F7F2EE;
+}
+#red{
+    background: #AE1C16;
+}
+
+.main-img{
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.main-img img{
+    width: 50rem;
+    transform: rotate(-6deg);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100%;
+    background: #445c42;
+    clip-path: circle(800px at right 1000px);
+
+}
+
+
+
+
+

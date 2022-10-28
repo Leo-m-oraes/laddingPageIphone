@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>iPhone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#"> <img class="logo" src="./assets/logo.png" alt="Logo do Iphone"></a>
+            <ul class="info">
+                <li class="links-apple"><a href="#">Mac</a></li>
+                <li class="links-apple"><a href="#">iPad</a></li>
+                <li class="check"><a href="#">iPhone</a></li>
+                <li class="links-apple"><a href="#">Watch</a></li>
+                <li class="links-apple"><a href="#">AirPods</a></li>
+                <li class="links-apple"><a href="#">Só na Apple</a></li>
+                <li class="links-apple"><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="./assets/iphone13.png" alt="">
+                <h3>Seu novo super poder.</h3>
+                <p>Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de
+                    foto e vídeo. <br> No iPhone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos.
+                </p>
+                <h6>A partir de R$ 6,599</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                    <h5>Escolha sua cor favorita:
+
+                    </h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="imgSlider('./assets/green.png'); circleChange('#364936')"></span>
+                    <span id="pink" onclick="imgSlider('./assets/pink.png'); circleChange('#ffc9cf')"></span>
+                    <span id="blue" onclick="imgSlider('./assets/blue.png'); circleChange('#0b839e')"></span>
+                    <span id="black" onclick="imgSlider('./assets/black.png'); circleChange('#1c1c1c')"></span>
+                    <span id="white"onclick="imgSlider('./assets/white.png'); circleChange('#D3D3D3')"></span>
+                    <span id="red"onclick="imgSlider('./assets/red.png'); circleChange('#DC143C')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="./assets/green.png" alt="imagem do iphone" id="phone">
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
